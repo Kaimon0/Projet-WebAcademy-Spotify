@@ -1,0 +1,133 @@
+h2,
+p,
+h3 {
+  color: white;
+}
+
+h2 {
+  text-align: center;
+}
+
+body {
+  background-color: black;
+
+
+}
+
+#root {
+  max-width: 1280px;
+  margin-left: 400px;
+  padding: 20px;
+  background-color: #121212;
+  border-radius: 10px;
+  margin-top: 1vh;
+  margin-right: 0;
+
+
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  gap: 0.8vh;
+
+}
+
+.container-all-genres {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1vh 5vh;
+
+}
+
+.container-all-genres > h2 {
+  padding: 1vh 1vh;
+}
+
+.container-all-genres > h2:hover {
+  background-color: #1f1e1e;
+  cursor: pointer;
+}
+
+.artist-container,
+.album-container {
+  padding: 1vh;
+  text-align: center;
+  max-width: 310px;
+  border-radius: 10px;
+
+
+
+}
+
+.artist-container:hover,
+.album-container:hover {
+  background-color: #1f1e1e;
+  cursor: pointer;
+
+}
+
+.artist-container>img,
+.album-container>img {
+  width: 290px;
+  height: 290px;
+  object-fit: cover;
+}
+
+.album-container>img {
+  border-radius: 10px;
+}
+
+.artist-container>img {
+  border-radius: 50%;
+}
+
+.container-search {
+  display: flex;
+}
+
+
+.top-button {
+  position: fixed;
+  left: 55%;
+  bottom: 40px;
+  height: 20px;
+  font-size: 3rem;
+  z-index: 1;
+  cursor: pointer;
+  color: green;
+}
+
+button {
+  padding: 0;
+  border: 0;
+  width: 0;
+}
+
+nav {
+  width: 300px;
+  height: 100vh;
+  background-color: #121212;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-left: 3vh;
+  border-radius: 10px;
+  margin-top: 1vh;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
